@@ -1,0 +1,12 @@
+通用
+java -verbose  可以输出的信息里面查看Java的配置
+
+windows：
+set java_home:查看JDK安装路径 
+
+
+linux 系统下，一下任意一个都行
+whereis java
+which java （java执行路径）
+echo $JAVA_HOME
+echo $PATH

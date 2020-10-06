@@ -1,0 +1,43 @@
+mvc:
+	要修改这个doInitHandlerMapping()
+
+九大组件
+	手写 	
+	HandlerMapping  请求和方法的映射
+	HandlerAdapter 实现实参和形参的匹配，拿到一个ModelAndView
+	ViewResolver 拿到view，将view渲染成浏览器能接收的结果（HTML字符串）
+
+在dispatcherServlet 中的init中初始化调用initStrategies方法，它又调用三个方法。
+	void initStrategies(applicationContext context){}; //策略模式
+		initHandlerMappings(context);//url和method的对应关系
+		initHandlerAdaters(context);//参数适配器
+		initViewResolvers(context);//视图转换器
+
+编写：initHandlerMappings
+新建一个HandlerMapping ，有三个变量。
+新建一个HandlerAdapter
+新建一个ModelAndView
+新建一个GPViewResolver
+在dispatcherServlet中 
+编写三个全局变量
+
+
+
+温习
+tmpUrl = tmpUrl.replaceAll("/+", "/").replaceAll("\\s", "").replaceAll("\\*", ".*");
+Pattern pattern=Pattern.compile(tmpUrl);
+
+String AbsoluteUrl=this.getClass().getClassLoader().getResource(templateRootDir).getFile();
+
+				Matcher matcher=jyHandlerMapping.getPattern().matcher(url);
+				if (!matcher.matches()) {
+					continue;
+				}
+
+Pattern pattern = Pattern.compile("￥\\{|\\}", Pattern.CASE_INSENSITIVE);
+
+matcher.group();
+
+matcher.find()
+
+matcher.replaceFirst(makeStringForRegExp(paramValue.toString()));

@@ -1,0 +1,3 @@
+null、undefined、0  在if中都是false。
+not defined：是没有声明，会报错。
+npmjs 上查看模块的各个使用

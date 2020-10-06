@@ -1,0 +1,3 @@
+ribbon的配置中不加@Configuration ，会出现配置不起作用。而加了又会变成全局配置。
+	使其不是全局配置两种方法1.不放在主启动类目录及所属目录下 2使用@ComponentScan排除
+fegin的配置不加@Configuration。或者加了，不放在主启动类目录及所属目录下。

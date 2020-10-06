@@ -1,0 +1,5 @@
+1.nioeventloopgroup  创建了executor、nioeventloop、chooser、selector。
+2.bind方法
+	initAndRegister：init：创建了nioServerSocketChannel、pipeLine、headContext、tailContext。
+		            Register：将channel注册到selector、利用evecutor生成自己（evetloop）的thread，然后开启执行、的回调handleradd、fireChannelRegistered、
+	bind：将nioServerSocketChannel绑定在端口上，然后调用fireChannelActive

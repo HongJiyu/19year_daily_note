@@ -1,0 +1,6 @@
+https://blog.csdn.net/notsaltedfish/article/details/75948281
+使用这两个其实知识序列化地不同。
+
+redis整合时序列化
+	redisTemplate 默认使用jdkxxx，都将值转为字节数组，获取也是将字节数组转为值。如果遇到key的保存格式不是字节数组的会出现找不到的现象。所以用redisStringTemplate
+	其实只要改变redisTemplate的序列化格式就行了。

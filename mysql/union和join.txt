@@ -1,0 +1,6 @@
+https://blog.csdn.net/weixin_41761540/article/details/80729617
+union  竖向合并
+join  横向合并
+
+left join 语法：select * fomr 表名A　　left join 表B  on  表A字段=表B的id  （where）　　left join 表c 　on 表A字段=表c的id （where） order by  xx ,xx asc
+on后面是指两个表之间的一个管理，后面其他筛选条件用where　

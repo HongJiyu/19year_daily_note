@@ -1,0 +1,5 @@
+进程调用：	dubbo使用代理+接口       						spring cloud 使用feign接口+代理，或者是restTemplate
+负载：		dubbo使用四种。 							 springcloud 使用ribbon
+容错和降级：	dubbo使用cluster属性（针对报错）和mock属性（降级、针对超时、宕机）。  	springcloud使用hystrix，降级限流熔断。
+链路：		dubbo使用monitor进行监控。          					springcloud使用sleuth（获取调用信息）+zipkin（可视化）
+网关：		dubbo没看到。         						springcloud使用zuul（地址解析、过滤信息）。

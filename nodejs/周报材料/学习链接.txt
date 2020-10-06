@@ -1,0 +1,17 @@
+Javascript基础入门：https://wangdoc.com/javascript/index.html
+ES6 入门: http://es6.ruanyifeng.com/
+Node.js API: https://nodejs.org/dist/latest-v12.x/docs/api/
+优先掌握 child_process,events,fs,global,http,module,net,os,path,process,stream,util, 其他模块需要进行大致浏览
+异步控制 callback,Promise,async/await
+
+ESLint编码规范：
+入门: https://www.jianshu.com/p/933b6b6a84c9
+官网: https://eslint.org/, http://eslint.cn/
+
+HTML基础入门：https://www.shiyanlou.com/courses/1236
+css基础入门：https://www.shiyanlou.com/courses/1237
+Koa如何&进阶学习: https://github.com/chenshenhai/koa2-note, https://github.com/chenshenhai/koajs-design-note
+Egg.js https://eggjs.org/zh-cn/intro/egg-and-koa.html
+
+
+restful：https://blog.csdn.net/me_Lany/article/details/84580525、http://www.ruanyifeng.com/blog/2014/05/restful_api.html

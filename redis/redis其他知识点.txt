@@ -1,0 +1,10 @@
+redis锁
+	加锁：jedis.set(String key, String value, “NX”, “PX”, int time)
+	解锁：lua语言。
+	https://www.jb51.net/article/162146.htm
+
+redis整合时序列化
+	redisTemplate 默认使用jdkxxx，都将值转为字节数组，获取也是将字节数组转为值。如果遇到key的保存格式不是字节数组的会出现找不到的现象。所以用redisStringTemplate
+	其实只要改变redisTemplate的序列化格式就行了。
+
+

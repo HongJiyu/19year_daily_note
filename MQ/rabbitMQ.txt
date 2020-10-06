@@ -1,0 +1,10 @@
+https://www.cnblogs.com/yhll/articles/9729355.html  基础知识，一些关键字     推荐
+https://www.cnblogs.com/yxy-ngu/p/8883379.html   原生api的实践  不推荐
+
+https://blog.csdn.net/qq_38455201/article/details/80308771  整合springboot 
+https://www.cnblogs.com/qts-hope/p/11242559.html  springboot所有可能的配置文件
+https://blog.csdn.net/zhangcongyi420/article/details/90319157   springboot的死信队列
+
+
+http://localhost:15672/   访问地址
+rabbitmq-plugins enable rabbitmq_management  window在cmd上启动

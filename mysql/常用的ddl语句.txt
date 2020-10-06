@@ -1,0 +1,34 @@
+Select version();  查看mysql版本号。
+select CONNECTION_ID(); 查看当前连接id
+Show variables like ‘%engine%’;	查看存储引擎。
+show variables like '%max_connections%';   最大连接数 
+show full processlist;  查看正在连接的数量
+SELECT * FROM information_schema.INNODB_TRX  查看事务
+时间的语句
+SELECT
+	TIME_TO_SEC( NOW( ) ),
+	NOW( ),
+	CURRENT_TIMESTAMP ( ),
+	REPLACE ( unix_timestamp( NOW( 3 ) ), '.', '' ),
+	REPLACE ( unix_timestamp( CURRENT_TIMESTAMP ( 3 ) ), '.', '' ),
+	CURRENT_TIMESTAMP ( 3 ),
+	unix_timestamp( CURRENT_TIMESTAMP ( 3 ) );
+
+Show global variables like “%tx_isolation%”; 查看global隔离级别。
+Show session variables like “%tx_isolation%”; 查看session连接隔离级别。
+select @@tx_isolation; -- session级别
+set global transaction_isolation ='SERIALIZABLE';  -- REPEATABLE-READ   READ-UNCOMMITTED READ-COMMITTED  SERIALIZABLE    设置隔离级别
+
+grant all privileges on *.* to 'root'@'%' identified by '123456' with grant option;   //所有权限
+grant all privileges on *.* to 'root'@'%'  //8.0高版本
+grant insert,update,select,delete on *.* to 'root'@'%' identified by '123456' with grant option; //增删改的权限
+flush privileges;
+grant replication slave on *.* to "slave_admin"@"%";//replication slave 从的复制权限
+show grants for root@'%'  //查看用户的权限
+mysql -uroot -p < /xx/xx.sql
+mysqldump --master-data=2 --single-transaction --databases xxx -uroot -p > back.sql
+mysql -uroot -p -e"create database xxx"
+show create table xxx  //创建表的ddl语句
+
+show index from 表;
+drop index 索引名 on 表

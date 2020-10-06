@@ -1,0 +1,24 @@
+为什么是classpath而不是src，因为当web项目运行时,编译器会把src下的一些资源文件（xml,properties,class）移至WEB-INF/classes/  里面
+WEB-INF/ 是资源目录, 客户端不能直接访问。
+这个目录下放的一般是web项目运行时的class文件、资源文件(xml,properties...)；
+在使用springboot进行开发时，其目录默认不是WEB-INF而是BOOT-INF，但是其含义是一样的。
+
+1、src不是classpath, WEB-INF/classes,lib才是classpath，
+3、引用classpath路径下的文件，只需在文件名前加classpath:，例如：
+<param-value>classpath:applicationContext-*.xml</param-value> 
+<param-value>classpath:context/conf/controller.xml</param-value>
+4、lib和classes同属classpath，两者的访问优先级为: lib>classes。
+
+classpath和classpath* 的区别
+有两个工程A  B  ，B打包为jar，A去引用它
+A：  WEB-INF/classes/
+	     /lib/B.jar
+如果是classpath:xx.xml  则只会到WEB-INF/classes/ 下找xx.xml
+如果是classpath*:xx.xml  则会在WEB-INF/classes/ 下找xx.xml，还会再lib中的jar包中找，如B的 WEB-INF/classes/下
+
+class.getClassLoader().getResourceAsStream(String name)
+是以classpath为相对去找name，而且不能用绝对， 即name的字面量不能以/开头
+
+class.getResourceAsStream(String name)
+是以当前类所在包下为相对去找name
+如果name是/开头，则是以classpath为相对路径去找。

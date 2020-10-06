@@ -1,0 +1,98 @@
+apt-cache search xxx
+
+vpn 按照教程即可
+
+ssh
+客户端和服务端都需要安装ssh。
+ssh-keygen -t rsa  生成公钥和密钥，在对应的用户目录下。
+id_rsa 是私有钥匙
+id_rsa.pub  是公有钥匙
+将客户端的公钥内容拷贝到服务端的.ssh/authorized_keys ，这个文件要自己创建。
+.ssh目录的权限为700，其下文件authorized_keys和私钥的权限为600
+
+这样客户端登陆服务端，就不用密码了，可能只需要生存公钥、私钥时输入的密码
+
+
+
+
+
+
+
+
+
+
+
+
+tomcat:
+
+软连接  ln -s  原  目标           那么：目标是原的快捷键
+
+<Context path="" docBase="/var/www/hjy123" debug="0"   reloadable="true" crossContext="true"/>
+
+自己安装了/usr/lib/jvm/   jdk1.8、tomcat8.  在/usr/lib/jvm/
+
+又用apt-install  装了tomcat9 和open jdk11  ，默认启动这个。也在/usr/lib/jvm/ ，其他路径百度
+
+systemctl status tomcat9
+
+为什么可以配置多个
+            <Host name="hjy123.tc.2ceo.cn"  appBase=""
+            unpackWARs="true" autoDeploy="true" xmlValidation="false" xmlNamespaceAware="false">
+<Context path="" docBase="/var/www/hjy123" debug="0"   reloadable="true" crossContext="true"/>
+        <!-- SingleSignOn valve, share authentication between web applications
+             Documentation at: /docs/config/valve.html -->
+        <!--
+        <Valve className="org.apache.catalina.authenticator.SingleSignOn" />
+        -->
+
+        <!-- Access log processes all example.
+             Documentation at: /docs/config/valve.html
+             Note: The pattern used is equivalent to using pattern="common" -->
+        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"
+               prefix="localhost_access_log" suffix=".txt"
+               pattern="%h %l %u %t &quot;%r&quot; %s %b" />
+
+      </Host>
+      
+      
+
+git:
+git clone tcgit@tc.2ceo.cn:/repo/java/tctask.git
+git clone --bare tcgit@tc.2ceo.cn:/repo/java/tctask.git  //bare模式，裸（bare）仓库里只存储历史和元信息，不会维护工作目录。
+git branch -a //查看所有分支
+git branch dev-by-hjy123 // 创建分支
+git checkout  dev-by-hjy123 //切换分支
+git add hjy123.txt //添加文件到分支
+git commit -m "first commit hjy123.txt"  //提交分支
+git push -u origin dev-by-hjy123 //分支dev-by-hjy123推送到远程origin
+git log dev-webpack //分支日志
+git remote add xxx  xxx  //命名 地址  添加远程仓库，可以是本地地址
+git remote -v // 查看所有远程
+git pull xxx  xxx //拉取远程的某个分支，可以不指定分支。
+
+
+
+
+
+mysql 8.0
+https://www.jianshu.com/p/99c4baca1983  安装
+
+修改密码：
+update user set authentication_string='123456' where user='root';
+FLUSH PRIVILEGES;
+
+授权：
+GRANT ALL PRIVILEGES ON *.* TO 'king'@'%'
+
+3306配置文件绑定了本地，要修改
+https://www.cnblogs.com/jycboy/p/6770069.html
+
+修改navicat连接mysql问题：密码加密问题。
+
+
+netty
+数据传输需要将数据分转为bytebuf不然在write会出错，又是异步的，不会显示在控制台。
+ \r\n \r 其实就是delimiters .linexxx()
+ outbound 尽管重写了channelread，也不会能read
+
+

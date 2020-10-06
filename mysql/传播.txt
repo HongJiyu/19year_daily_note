@@ -1,0 +1,13 @@
+1） 事务传播用于描述当一个由事务传播行为修饰的方法被嵌套入另外一个方法时，事务如何传播。常用于定义发生事务嵌套时，如何继续执行。
+
+2） Spring 中共定义了7中事务传播类型，明细如下表， 需答出3~4种常见类型即可：
+
+    a) PROPAGATION_REQUIRED： 当前没有事务时开启新事务，如果有则加入；
+
+    b) PROPAGATION_REQUIRES_NEW： 强制开启新事务，挂起已有事务（如有）；
+
+    c) PROPAGATION_SUPPORTS： 当前有事务时加入， 没有则以非事务方式执行；
+
+    d) PROPAGATION_NOT_SUPPORTED： 以非事务方式执行， 挂起当前事务（如有）；
+
+3） 可以在注解或者XML中指定传播类型， 如 “@Transactional(Propagation=xxx)”

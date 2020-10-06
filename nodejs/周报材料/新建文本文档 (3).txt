@@ -1,0 +1,80 @@
+登录注册、修改个人信息 
+留言、展示
+管理留言
+接口restful
+
+
+问题：
+渲染页面传值时，没有加{}
+表单的button（非submit）要声明  type为button
+koa-body 和koa-bodyparser  重复
+js分支不执行，但是赋值了？？（不懂，忘了）
+重复提交  （解决）
+
+
+上传：https://blog.csdn.net/qq_24134853/article/details/81745104
+egg：https://www.bilibili.com/video/av38372787/
+restful:http://www.ruanyifeng.com/blog/2014/05/restful_api.html
+ajax上传文件和数据：https://www.cnblogs.com/zkaiw/p/12660559.html
+6.27
+接口规范
+管理留言
+重复提交（评论后跳转到留言板页面，留言板页面刷新就变成重新评论的数据提交了）
+
+
+ctx.request.body
+ctx.params
+ctx.query
+
+ctx.status
+ctx.body
+ctx.render
+
+返回问题：
+java中有捕获且正常返回了，都是200
+nodejs，捕获了，不过ctx.status时 ，如果非2xx，那么都走的时ajax的error
+tr的name，tr这个是htmltablerowelement对象。里面没有name这个属性 
+ajax处理错误时是error.responseText显示错误信息，而nodejs返回需要error.responseText.xxx ，所以还是把捕获的错误放在success，再进行判断处理
+$("#xx").val()   $("#xx")[0].value
+事务？？
+样式？？ https://www.bootcss.com/p/buttons/
+label 是text
+
+
+
+vs code进行调试nodejs，事务，内存管理
+Unexpected space before function parentheses  解决方案是这个，很纳闷：https://www.jianshu.com/p/2f5cded8a2d3 ，使用eslint的格式化
+js的=== 和==  ！=   ！===
+vscode自带的保存格式化和eslint的保存格式话冲突，选择了vscode，所以规范不符合eslint，导致警告
+不允许==， 配置："eqeqeq": "off",
+前端页面有使用标签，而render又没赋值，那么会出现not defined
+egg的统一异常处理、debug
+'use strict'; 作用
+统一异常处理（），使用中间件 https://blog.csdn.net/weixin_39347470/article/details/104361716
+是自己的异常，则抛出200以及error.message
+是系统的异常，则抛出500以及系统繁忙，请重新尝试，并将错误打出在控制台或记录日志。
+判断是否是一个类的实例，使用constructor：https://blog.csdn.net/oldjwu/article/details/2291273
+设置koa时静态资源路径加上public 配置时使用路径： public/../
+
+egg文件上传时，需要配置config.default.js 同时后台接收的参数和koa不一样的。
+返回record 和返回{record} 是不同的， 调用：一个是record 一个是data.record   就多了一层
+koa使用<%=message%> ，没定义不会报错，egg会报not defined
+egg写日志,有默认的egg-logger 直接ctx.logger.error()  拆分：egg-logrotator 不知道怎么使用
+javascript 是单线程的，它是代码执行和ui渲染共用一个线程。
+Egg版本需要编写单元测试，要求： 方法覆盖率100%，分支覆盖率 > 70%
+状态码204不会返回数据，即使代码写了返回，ajax接收到的data也是undefined
+    //  "test": "npm run lint -- --fix && npm run test-local",
+
+局部变量、成员变量、全局变量
+单例：整个系统只有唯一一个。  全局，一个用户对应一个
+两个js声明的变量是不共享的，js引入其他js（使用<script src> 引入的js ），也是一个新的实例
+require 同一个js，都是同一个单例或者说是全局的， 和global性质一样 https://blog.csdn.net/bugknightyyp/article/details/8800508
+
+koa没有异常处理和事务管理
+
+其他调用都不可以
+1、一个service可以被多个controller调用
+2、service也可以相互调用service
+
+
+使用中间件进行统一异常处理和登录拦截

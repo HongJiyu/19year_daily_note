@@ -1,0 +1,4 @@
+https://juejin.im/post/5b55b842f265da0f9e589e79  非常好的一篇文章
+https://www.cnblogs.com/cchust/p/5061131.html    对Performance-Schema中表的操作
+https://www.cnblogs.com/kerrycode/p/8649101.html  autocommit的介绍
+https://www.cnblogs.com/conanwang/p/5884396.html  mysql的qps和tps

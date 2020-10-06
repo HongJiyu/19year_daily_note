@@ -1,0 +1,30 @@
+dispatcherServlet
+	init(参数 ServletConfig)
+
+
+		1.加载配置文件 doLoadConfig
+			获取web.xml中的配置，获取主配置文件
+		2.扫描相关的类doScanner
+			通过主配置文件的包名，遍历这个包下所有文件，获取文件名
+		3.初始化扫描到的类，并且放到ioc容器中doInstance
+			利用反射加载类，初始化一个实例，
+		4.完成自动化的依赖注入doAutowired
+
+		5.初始化HandlerMapping   doInitHandlerMapping
+			
+	doGet	
+	doPost
+		6.根据url调用方法	
+	destory
+
+
+注意：
+为什么controller 也要加入到ioc容器中， controller的实例需要注入到哪里吗
+不用注入，不过在调用方法的时候会用到所以才要实例化controller。
+
+ioc中 的key 对于每一个service类都有两种：用户自定义/类名首字母小写，接口全限定名。
+而在注入的时候： 用户自定义 ，接口全限定名
+
+params[i]=Arrays.toString(parameterMap.get(paramName)).replaceAll("\\[|\\]", "").replaceAll("\\s", ","); //不用这个会报类型错误
+
+

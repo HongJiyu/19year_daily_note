@@ -1,0 +1,44 @@
+ioc  di mvc aop
+还有：
+jdbc
+tx
+message
+。。。
+
+aop干了什么：
+面向切面编程
+采用代理实现
+写了一个类、方法。
+后来想去监听这个方法，打印一条日志，事务。
+每一个增强的模块都是一个切面，在运行的时候却是合成一段代码，一起运行。
+代码织入，代码增强
+
+
+aop组件
+advice：捕获到一次调用的时候，会触发一次通知（前置、后置、异常通知）
+aopConfig  保存通知触发的关联关系
+advice 和aopConfig 的关系，生成一个新的类，是目标类的代理类，
+AopProxy： 真正调用通知的
+两个子类	jdkDynamicAopProxy（类实现接口）、CglibDynamicAopProxy 
+AdvisedSupport： 主要用来解析配置文件和封装Advice
+
+
+
+pointCut=public .* com.gupaoedu.vip.demo.service..*Service..*(.*)
+
+aspectClass=com.gupaoedu.vip.demo.aspect.LogAspect
+
+aspectBefore=before
+
+aspectAfter=after
+
+aspectAfterThrow=afterThrowing
+
+aspectAfterThrowingName=java.lang.Exception
+
+String pointCut = config.getPointCut().replaceAll("\\.", "\\\\.").replaceAll("\\\\.\\*", ".*")
+				.replaceAll("\\(", "\\\\(").replaceAll("\\)", "\\\\)");
+
+
+public void demo.service.ServiceTest.throwException()
+public .* demo\.service\..*Service\..*\(.*\)

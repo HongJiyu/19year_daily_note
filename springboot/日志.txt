@@ -1,0 +1,14 @@
+#配置日志信息
+logging.file=E:/data_log/miaosha/miaosha.log
+
+在类中使用
+private static final Logger log = LoggerFactory.getLogger(UserController.class);
+
+日志级别总共有TARCE < DEBUG < INFO < WARN < ERROR < FATAL ，且级别是逐渐提供，如果日志级别设置为INFO，则意味TRACE和DEBUG级别的日志都看不到
+
+整体日志的级别
+logging.level.root=INFO
+某包下的类的级别
+logging.level.com.jackie.springbootdemo.config=WARN
+
+具体看：https://www.cnblogs.com/bigdataZJ/p/springboot-log.html

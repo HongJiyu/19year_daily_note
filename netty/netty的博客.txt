@@ -1,0 +1,14 @@
+https://blog.csdn.net/qq_37909508/article/list/8  没看过，可以去看看有70多篇
+
+https://blog.csdn.net/dongyuxu342719/article/details/86511059  服务端用fileregion返回数据
+https://www.cnblogs.com/xys1228/p/6088805.html   零拷贝的理解
+https://github.com/netty/netty/blob/4.1/example/src/main/java/io/netty/example/file/FileServer.java  netty的给的example案例
+https://www.jianshu.com/p/447c2431ac32  对案例的解析
+https://blog.csdn.net/silver9886/article/details/85172762  注意的地方
+https://blog.csdn.net/a953713428/article/details/72792909?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task   //文件断点传输
+
+
+https://blog.csdn.net/wangwei19871103/article/details/104486129  compositebytebuf
+
+
+

@@ -1,0 +1,1015 @@
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49697-1565865083461-0:1) is shutting down
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/08/18 11:53:51 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/08/18 11:53:51 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/08/18 11:53:51 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/08/18 11:53:51 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/08/18 11:53:51 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/08/18 11:53:51 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | PListStore:[C:\Users\Administrator\Desktop\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49697-1565865083461-0:1) uptime 2 days 17 hours
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49697-1565865083461-0:1) is shutdown
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@f0021f4: startup date [Thu Aug 15 18:31:19 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/08/18 11:53:51 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/08/18 11:53:52 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/08/18 15:14:38 | ActiveMQ installed.
+STATUS | wrapper  | 2019/08/18 15:14:50 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/08/18 15:14:50 | Launching a JVM...
+INFO   | jvm 1    | 2019/08/18 15:14:55 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/08/18 15:14:55 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/08/18 15:14:55 | 
+INFO   | jvm 1    | 2019/08/18 15:14:55 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/08/18 15:14:55 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 1    | 2019/08/18 15:14:55 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=NzhnVYMRiWTQM3Km -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=39836 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/08/18 15:14:55 | Extensions classpath:
+INFO   | jvm 1    | 2019/08/18 15:14:55 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/08/18 15:14:55 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/08/18 15:14:55 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/08/18 15:14:55 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/08/18 15:14:55 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/08/18 15:14:55 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/08/18 15:14:55 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Sun Aug 18 15:14:55 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/08/18 15:14:57 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/08/18 15:14:57 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/08/18 15:14:57 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/08/18 15:14:58 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-62708-1566112497987-0:1) is starting
+INFO   | jvm 1    | 2019/08/18 15:14:58 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/18 15:14:58 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/08/18 15:14:58 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/18 15:14:58 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/08/18 15:14:58 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/18 15:14:58 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/08/18 15:14:58 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/18 15:14:58 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/08/18 15:14:58 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/08/18 15:14:58 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/08/18 15:14:58 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@65911145{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/08/18 15:14:59 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/18 15:14:59 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/08/18 15:14:59 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-62708-1566112497987-0:1) started
+INFO   | jvm 1    | 2019/08/18 15:14:59 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/08/18 15:14:59 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 65057 mb of usable space. - resetting to maximum available disk space: 65057 mb
+INFO   | jvm 1    | 2019/08/18 15:15:00 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/08/18 15:15:00 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/08/18 15:15:00 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/08/18 15:15:00 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/08/18 15:15:01 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/08/18 15:15:05 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2019/08/18 15:52:17 |  WARN | Transport Connection to: tcp://127.0.0.1:63338 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 15:52:17 |  WARN | Transport Connection to: tcp://127.0.0.1:63339 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 15:52:17 |  WARN | Transport Connection to: tcp://127.0.0.1:63340 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 16:16:11 |  WARN | Transport Connection to: tcp://127.0.0.1:63752 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 16:16:11 |  WARN | Transport Connection to: tcp://127.0.0.1:63753 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 16:16:11 |  WARN | Transport Connection to: tcp://127.0.0.1:63754 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 16:20:16 |  WARN | Transport Connection to: tcp://127.0.0.1:63788 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 16:20:16 |  WARN | Transport Connection to: tcp://127.0.0.1:63786 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 16:20:16 |  WARN | Transport Connection to: tcp://127.0.0.1:63787 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 17:03:32 |  WARN | Transport Connection to: tcp://127.0.0.1:50841 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 17:03:32 |  WARN | Transport Connection to: tcp://127.0.0.1:50840 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 17:03:32 |  WARN | Transport Connection to: tcp://127.0.0.1:50842 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 17:07:03 |  WARN | Transport Connection to: tcp://127.0.0.1:53337 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 17:07:03 |  WARN | Transport Connection to: tcp://127.0.0.1:53339 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/08/18 17:07:03 |  WARN | Transport Connection to: tcp://127.0.0.1:53338 failed: java.net.SocketException: Connection reset
+STATUS | wrapper  | 2019/08/22 18:49:27 | Machine is shutting down.
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-62708-1566112497987-0:1) is shutting down
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/08/22 18:49:29 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/08/22 18:49:29 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/08/22 18:49:29 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/08/22 18:49:29 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-62708-1566112497987-0:1) uptime 4 days 3 hours
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-62708-1566112497987-0:1) is shutdown
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Sun Aug 18 15:14:55 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/08/22 18:49:29 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/08/22 18:49:30 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/08/22 18:50:00 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/08/22 18:50:00 | Launching a JVM...
+INFO   | jvm 1    | 2019/08/22 18:50:04 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/08/22 18:50:04 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/08/22 18:50:04 | 
+INFO   | jvm 1    | 2019/08/22 18:50:04 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/08/22 18:50:04 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 1    | 2019/08/22 18:50:04 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=CjVqjHRyltEXm8Es -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3796 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/08/22 18:50:04 | Extensions classpath:
+INFO   | jvm 1    | 2019/08/22 18:50:04 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/08/22 18:50:04 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/08/22 18:50:04 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/08/22 18:50:04 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/08/22 18:50:04 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/08/22 18:50:05 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/08/22 18:50:06 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@f0021f4: startup date [Thu Aug 22 18:50:05 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/08/22 18:50:10 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/08/22 18:50:10 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/08/22 18:50:11 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/08/22 18:50:11 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49714-1566471010990-0:1) is starting
+INFO   | jvm 1    | 2019/08/22 18:50:11 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/22 18:50:11 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/08/22 18:50:11 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/22 18:50:11 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/08/22 18:50:11 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/22 18:50:11 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/08/22 18:50:11 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/22 18:50:11 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/08/22 18:50:12 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/08/22 18:50:12 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/08/22 18:50:12 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@bd8aa95{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/08/22 18:50:12 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/22 18:50:12 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/08/22 18:50:12 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49714-1566471010990-0:1) started
+INFO   | jvm 1    | 2019/08/22 18:50:12 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/08/22 18:50:12 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 66220 mb of usable space. - resetting to maximum available disk space: 66220 mb
+INFO   | jvm 1    | 2019/08/22 18:50:14 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/08/22 18:50:14 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/08/22 18:50:14 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/08/22 18:50:14 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/08/22 18:50:15 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/08/22 18:50:16 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2019/08/25 23:23:17 | Machine is shutting down.
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49714-1566471010990-0:1) is shutting down
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/08/25 23:23:19 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/08/25 23:23:19 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/08/25 23:23:19 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/08/25 23:23:19 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/08/25 23:23:19 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/08/25 23:23:19 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/08/25 23:23:19 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/08/25 23:23:19 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/08/25 23:23:19 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/08/25 23:23:19 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/08/25 23:23:19 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/08/25 23:23:19 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49714-1566471010990-0:1) uptime 3 days 4 hours
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49714-1566471010990-0:1) is shutdown
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@f0021f4: startup date [Thu Aug 22 18:50:05 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/08/25 23:23:19 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/08/25 23:23:20 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/08/26 18:47:48 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/08/26 18:47:48 | Launching a JVM...
+INFO   | jvm 1    | 2019/08/26 18:47:51 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/08/26 18:47:51 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/08/26 18:47:51 | 
+INFO   | jvm 1    | 2019/08/26 18:47:51 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/08/26 18:47:51 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 1    | 2019/08/26 18:47:51 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=BCUpeRSnfvpzDL9V -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3912 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/08/26 18:47:51 | Extensions classpath:
+INFO   | jvm 1    | 2019/08/26 18:47:51 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/08/26 18:47:51 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/08/26 18:47:51 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/08/26 18:47:51 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/08/26 18:47:51 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/08/26 18:47:52 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/08/26 18:47:52 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5a68c048: startup date [Mon Aug 26 18:47:52 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/08/26 18:47:54 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49679-1566816475087-0:1) is starting
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/08/26 18:47:55 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@25df4faa{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/08/26 18:47:56 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/26 18:47:56 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/08/26 18:47:56 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49679-1566816475087-0:1) started
+INFO   | jvm 1    | 2019/08/26 18:47:56 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/08/26 18:47:56 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 68074 mb of usable space. - resetting to maximum available disk space: 68074 mb
+INFO   | jvm 1    | 2019/08/26 18:47:57 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/08/26 18:47:57 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/08/26 18:47:57 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/08/26 18:47:57 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/08/26 18:47:58 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/08/26 18:47:59 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+ERROR  | wrapper  | 2019/08/28 21:52:22 | JVM exited unexpectedly.
+STATUS | wrapper  | 2019/08/28 21:52:26 | Launching a JVM...
+INFO   | jvm 2    | 2019/08/28 21:52:28 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2019/08/28 21:52:28 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 2    | 2019/08/28 21:52:28 | 
+INFO   | jvm 2    | 2019/08/28 21:52:28 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 2    | 2019/08/28 21:52:28 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 2    | 2019/08/28 21:52:28 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=xXnqPNs38C9Lp6DZ -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3912 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=2
+INFO   | jvm 2    | 2019/08/28 21:52:28 | Extensions classpath:
+INFO   | jvm 2    | 2019/08/28 21:52:28 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 2    | 2019/08/28 21:52:28 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 2    | 2019/08/28 21:52:28 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 2    | 2019/08/28 21:52:28 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 2    | 2019/08/28 21:52:28 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 2    | 2019/08/28 21:52:28 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 2    | 2019/08/28 21:52:28 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@f0021f4: startup date [Wed Aug 28 21:52:28 CST 2019]; root of context hierarchy
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Page File: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Page File: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | KahaDB is version 6
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-65063-1567000350165-0:1) is starting
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Connector openwire started
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Connector amqp started
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Connector stomp started
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Connector mqtt started
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Starting Jetty server
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Creating Jetty connector
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@685aa83f{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Connector ws started
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-65063-1567000350165-0:1) started
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 2    | 2019/08/28 21:52:30 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 68072 mb of usable space. - resetting to maximum available disk space: 68072 mb
+INFO   | jvm 2    | 2019/08/28 21:52:31 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 2    | 2019/08/28 21:52:31 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 2    | 2019/08/28 21:52:31 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 2    | 2019/08/28 21:52:32 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 2    | 2019/08/28 21:52:32 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 2    | 2019/08/28 21:52:33 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2019/08/29 19:46:44 | Machine is shutting down.
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-65063-1567000350165-0:1) is shutting down
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Connector openwire stopped
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Connector amqp stopped
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 2    | 2019/08/29 19:46:45 | java.lang.InterruptedException
+INFO   | jvm 2    | 2019/08/29 19:46:45 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 2    | 2019/08/29 19:46:45 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 2    | 2019/08/29 19:46:45 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 2    | 2019/08/29 19:46:45 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 2    | 2019/08/29 19:46:45 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Connector stomp stopped
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Connector mqtt stopped
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Connector ws stopped
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Stopping async queue tasks
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Stopping async topic tasks
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Stopped KahaDB
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-65063-1567000350165-0:1) uptime 21 hours 54 minutes
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-65063-1567000350165-0:1) is shutdown
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@f0021f4: startup date [Wed Aug 28 21:52:28 CST 2019]; root of context hierarchy
+INFO   | jvm 2    | 2019/08/29 19:46:45 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/08/29 19:46:45 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/08/29 19:47:17 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/08/29 19:47:17 | Launching a JVM...
+INFO   | jvm 1    | 2019/08/29 19:47:20 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/08/29 19:47:20 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/08/29 19:47:20 | 
+INFO   | jvm 1    | 2019/08/29 19:47:20 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/08/29 19:47:20 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 1    | 2019/08/29 19:47:20 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=3QAt0DSXAGdhW5X0 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3752 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/08/29 19:47:20 | Extensions classpath:
+INFO   | jvm 1    | 2019/08/29 19:47:20 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/08/29 19:47:20 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/08/29 19:47:20 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/08/29 19:47:20 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/08/29 19:47:20 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/08/29 19:47:21 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/08/29 19:47:21 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@3620c9f8: startup date [Thu Aug 29 19:47:21 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/08/29 19:47:24 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/08/29 19:47:25 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/08/29 19:47:25 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/08/29 19:47:25 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49678-1567079245125-0:1) is starting
+INFO   | jvm 1    | 2019/08/29 19:47:26 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/29 19:47:26 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/08/29 19:47:26 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/29 19:47:26 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/08/29 19:47:26 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/29 19:47:26 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/08/29 19:47:26 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/29 19:47:26 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/08/29 19:47:26 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/08/29 19:47:27 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/08/29 19:47:27 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@6edf81fd{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/08/29 19:47:27 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/08/29 19:47:27 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/08/29 19:47:27 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49678-1567079245125-0:1) started
+INFO   | jvm 1    | 2019/08/29 19:47:27 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/08/29 19:47:27 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 68075 mb of usable space. - resetting to maximum available disk space: 68075 mb
+INFO   | jvm 1    | 2019/08/29 19:47:28 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/08/29 19:47:29 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/08/29 19:47:29 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/08/29 19:47:29 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/08/29 19:47:29 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/08/29 19:47:30 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+ERROR  | wrapper  | 2019/08/31 10:45:12 | JVM exited unexpectedly.
+STATUS | wrapper  | 2019/08/31 10:45:16 | Launching a JVM...
+INFO   | jvm 2    | 2019/08/31 10:45:17 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2019/08/31 10:45:17 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 2    | 2019/08/31 10:45:17 | 
+INFO   | jvm 2    | 2019/08/31 10:45:18 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 2    | 2019/08/31 10:45:18 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 2    | 2019/08/31 10:45:18 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=jWAXY57jUbRSC7yk -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3752 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=2
+INFO   | jvm 2    | 2019/08/31 10:45:18 | Extensions classpath:
+INFO   | jvm 2    | 2019/08/31 10:45:18 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 2    | 2019/08/31 10:45:18 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 2    | 2019/08/31 10:45:18 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 2    | 2019/08/31 10:45:18 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 2    | 2019/08/31 10:45:18 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 2    | 2019/08/31 10:45:18 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 2    | 2019/08/31 10:45:18 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@f0021f4: startup date [Sat Aug 31 10:45:18 CST 2019]; root of context hierarchy
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Page File: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | KahaDB is version 6
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Page File: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-62628-1567219520503-0:1) is starting
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Connector openwire started
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Connector amqp started
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Connector stomp started
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Connector mqtt started
+INFO   | jvm 2    | 2019/08/31 10:45:20 |  INFO | Starting Jetty server
+INFO   | jvm 2    | 2019/08/31 10:45:21 |  INFO | Creating Jetty connector
+INFO   | jvm 2    | 2019/08/31 10:45:21 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@685aa83f{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 2    | 2019/08/31 10:45:21 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2019/08/31 10:45:21 |  INFO | Connector ws started
+INFO   | jvm 2    | 2019/08/31 10:45:21 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-62628-1567219520503-0:1) started
+INFO   | jvm 2    | 2019/08/31 10:45:21 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 2    | 2019/08/31 10:45:21 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 64127 mb of usable space. - resetting to maximum available disk space: 64127 mb
+INFO   | jvm 2    | 2019/08/31 10:45:22 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 2    | 2019/08/31 10:45:23 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 2    | 2019/08/31 10:45:23 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 2    | 2019/08/31 10:45:23 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 2    | 2019/08/31 10:45:23 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 2    | 2019/08/31 10:45:25 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2019/09/06 18:53:55 | Machine is shutting down.
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-62628-1567219520503-0:1) is shutting down
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Connector openwire stopped
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Connector amqp stopped
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Connector stomp stopped
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Connector mqtt stopped
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 2    | 2019/09/06 18:53:56 | java.lang.InterruptedException
+INFO   | jvm 2    | 2019/09/06 18:53:56 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 2    | 2019/09/06 18:53:56 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 2    | 2019/09/06 18:53:56 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 2    | 2019/09/06 18:53:56 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 2    | 2019/09/06 18:53:56 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Connector ws stopped
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Stopping async queue tasks
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Stopping async topic tasks
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Stopped KahaDB
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-62628-1567219520503-0:1) uptime 6 days 8 hours
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-62628-1567219520503-0:1) is shutdown
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@f0021f4: startup date [Sat Aug 31 10:45:18 CST 2019]; root of context hierarchy
+INFO   | jvm 2    | 2019/09/06 18:53:56 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/09/06 18:53:57 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/09/06 18:54:55 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/09/06 18:54:55 | Launching a JVM...
+INFO   | jvm 1    | 2019/09/06 18:54:59 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/09/06 18:54:59 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/09/06 18:54:59 | 
+INFO   | jvm 1    | 2019/09/06 18:54:59 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/09/06 18:54:59 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 1    | 2019/09/06 18:54:59 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=DbMhefavQrcsNVnu -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3784 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/09/06 18:54:59 | Extensions classpath:
+INFO   | jvm 1    | 2019/09/06 18:54:59 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/09/06 18:54:59 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/06 18:54:59 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/06 18:54:59 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/09/06 18:54:59 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/09/06 18:55:00 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/09/06 18:55:00 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@3620c9f8: startup date [Fri Sep 06 18:55:00 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/06 18:55:04 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49675-1567767305058-0:1) is starting
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/09/06 18:55:05 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@6edf81fd{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/09/06 18:55:06 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/06 18:55:06 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/09/06 18:55:06 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49675-1567767305058-0:1) started
+INFO   | jvm 1    | 2019/09/06 18:55:06 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/09/06 18:55:06 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 64125 mb of usable space. - resetting to maximum available disk space: 64125 mb
+INFO   | jvm 1    | 2019/09/06 18:55:06 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/06 18:55:07 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/09/06 18:55:07 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/09/06 18:55:07 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/09/06 18:55:07 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/06 18:55:08 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2019/09/07 11:20:53 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49675-1567767305058-0:1) is shutting down
+INFO   | jvm 1    | 2019/09/07 11:20:53 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/09/07 11:20:54 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/09/07 11:20:54 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/09/07 11:20:54 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/09/07 11:20:54 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/09/07 11:20:54 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/09/07 11:20:54 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/09/07 11:20:54 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/09/07 11:20:54 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/09/07 11:20:54 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49675-1567767305058-0:1) uptime 16 hours 25 minutes
+INFO   | jvm 1    | 2019/09/07 11:20:54 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49675-1567767305058-0:1) is shutdown
+INFO   | jvm 1    | 2019/09/07 11:20:54 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@3620c9f8: startup date [Fri Sep 06 18:55:00 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/07 11:20:54 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/09/07 11:20:54 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/09/08 19:46:14 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/09/08 19:46:15 | Launching a JVM...
+INFO   | jvm 1    | 2019/09/08 19:46:18 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/09/08 19:46:18 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/09/08 19:46:18 | 
+INFO   | jvm 1    | 2019/09/08 19:46:18 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/09/08 19:46:18 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 1    | 2019/09/08 19:46:18 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=nj1la7dSiHnzlmKw -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3548 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/09/08 19:46:18 | Extensions classpath:
+INFO   | jvm 1    | 2019/09/08 19:46:18 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/09/08 19:46:18 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/08 19:46:18 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/08 19:46:18 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/09/08 19:46:18 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/09/08 19:46:19 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/09/08 19:46:19 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Sun Sep 08 19:46:19 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/08 19:46:22 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/09/08 19:46:23 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/09/08 19:46:23 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/09/08 19:46:23 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49682-1567943183572-0:1) is starting
+INFO   | jvm 1    | 2019/09/08 19:46:24 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/08 19:46:24 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/09/08 19:46:24 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/08 19:46:24 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/09/08 19:46:24 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/08 19:46:24 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/09/08 19:46:24 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/08 19:46:24 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/09/08 19:46:24 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/09/08 19:46:24 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/09/08 19:46:25 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@48bf00b8{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/09/08 19:46:25 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/08 19:46:25 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/09/08 19:46:25 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49682-1567943183572-0:1) started
+INFO   | jvm 1    | 2019/09/08 19:46:25 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/09/08 19:46:25 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 54390 mb of usable space. - resetting to maximum available disk space: 54390 mb
+INFO   | jvm 1    | 2019/09/08 19:46:26 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/08 19:46:27 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/09/08 19:46:27 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/09/08 19:46:27 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/09/08 19:46:27 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/08 19:46:28 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2019/09/11 20:49:43 | Machine is shutting down.
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49682-1567943183572-0:1) is shutting down
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/09/11 20:49:44 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/09/11 20:49:44 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/09/11 20:49:44 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/09/11 20:49:44 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/09/11 20:49:44 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49682-1567943183572-0:1) uptime 3 days 1 hour
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49682-1567943183572-0:1) is shutdown
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Sun Sep 08 19:46:19 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/11 20:49:44 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/09/11 20:49:45 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/09/11 20:50:19 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/09/11 20:50:20 | Launching a JVM...
+INFO   | jvm 1    | 2019/09/11 20:50:24 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/09/11 20:50:24 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/09/11 20:50:24 | 
+INFO   | jvm 1    | 2019/09/11 20:50:24 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/09/11 20:50:24 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 1    | 2019/09/11 20:50:24 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=IJ7y6iHxD1F3OoOE -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3608 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/09/11 20:50:24 | Extensions classpath:
+INFO   | jvm 1    | 2019/09/11 20:50:24 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/09/11 20:50:24 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/11 20:50:24 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/11 20:50:24 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/09/11 20:50:24 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/09/11 20:50:25 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/09/11 20:50:25 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Wed Sep 11 20:50:25 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/11 20:50:29 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/09/11 20:50:29 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/09/11 20:50:29 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/09/11 20:50:29 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49687-1568206229308-0:1) is starting
+INFO   | jvm 1    | 2019/09/11 20:50:30 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/11 20:50:30 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/09/11 20:50:30 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/11 20:50:30 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/09/11 20:50:30 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/11 20:50:30 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/09/11 20:50:30 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/11 20:50:30 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/09/11 20:50:30 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/09/11 20:50:30 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/09/11 20:50:30 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@48bf00b8{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/09/11 20:50:31 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/11 20:50:31 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/09/11 20:50:31 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49687-1568206229308-0:1) started
+INFO   | jvm 1    | 2019/09/11 20:50:31 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/09/11 20:50:31 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 37391 mb of usable space. - resetting to maximum available disk space: 37391 mb
+INFO   | jvm 1    | 2019/09/11 20:50:31 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data only has 37384 mb of usable space. - resetting to maximum available disk space: 37384 mb
+INFO   | jvm 1    | 2019/09/11 20:50:33 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/11 20:50:33 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/09/11 20:50:33 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/09/11 20:50:33 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/09/11 20:50:33 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/11 20:50:34 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2019/09/11 21:24:32 | Machine is shutting down.
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49687-1568206229308-0:1) is shutting down
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49687-1568206229308-0:1) uptime 34 minutes
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49687-1568206229308-0:1) is shutdown
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Wed Sep 11 20:50:25 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/11 21:24:33 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/09/11 21:24:34 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/09/11 21:25:04 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/09/11 21:25:04 | Launching a JVM...
+INFO   | jvm 1    | 2019/09/11 21:25:07 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/09/11 21:25:07 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/09/11 21:25:07 | 
+INFO   | jvm 1    | 2019/09/11 21:25:07 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/09/11 21:25:07 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 1    | 2019/09/11 21:25:07 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=ixyH6SCEmlSUlRFV -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3864 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/09/11 21:25:07 | Extensions classpath:
+INFO   | jvm 1    | 2019/09/11 21:25:07 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/09/11 21:25:07 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/11 21:25:07 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/11 21:25:07 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/09/11 21:25:07 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/09/11 21:25:08 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/09/11 21:25:08 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Wed Sep 11 21:25:08 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/11 21:25:12 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/09/11 21:25:12 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/09/11 21:25:12 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/09/11 21:25:12 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49684-1568208312313-0:1) is starting
+INFO   | jvm 1    | 2019/09/11 21:25:13 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/11 21:25:13 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/09/11 21:25:13 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/11 21:25:13 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/09/11 21:25:13 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/11 21:25:13 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/09/11 21:25:13 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/11 21:25:13 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/09/11 21:25:13 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/09/11 21:25:13 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/09/11 21:25:14 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@48bf00b8{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/09/11 21:25:14 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/11 21:25:14 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/09/11 21:25:14 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49684-1568208312313-0:1) started
+INFO   | jvm 1    | 2019/09/11 21:25:14 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/09/11 21:25:14 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 37391 mb of usable space. - resetting to maximum available disk space: 37391 mb
+INFO   | jvm 1    | 2019/09/11 21:25:14 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data only has 37384 mb of usable space. - resetting to maximum available disk space: 37384 mb
+INFO   | jvm 1    | 2019/09/11 21:25:16 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/11 21:25:16 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/09/11 21:25:16 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/09/11 21:25:16 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/09/11 21:25:16 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/11 21:25:17 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2019/09/12 21:16:21 | Machine is shutting down.
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49684-1568208312313-0:1) is shutting down
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/09/12 21:16:22 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/09/12 21:16:22 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/09/12 21:16:22 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/09/12 21:16:22 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/09/12 21:16:22 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/09/12 21:16:22 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49684-1568208312313-0:1) uptime 23 hours 51 minutes
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49684-1568208312313-0:1) is shutdown
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Wed Sep 11 21:25:08 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/12 21:16:22 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/09/12 21:16:23 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/09/12 21:16:55 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/09/12 21:16:55 | Launching a JVM...
+INFO   | jvm 1    | 2019/09/12 21:16:59 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/09/12 21:16:59 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/09/12 21:16:59 | 
+INFO   | jvm 1    | 2019/09/12 21:16:59 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/09/12 21:16:59 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 1    | 2019/09/12 21:16:59 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=BIkzeJqumcwMRkx8 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3492 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/09/12 21:16:59 | Extensions classpath:
+INFO   | jvm 1    | 2019/09/12 21:16:59 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/09/12 21:16:59 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/12 21:16:59 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/12 21:16:59 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/09/12 21:16:59 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/09/12 21:17:00 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/09/12 21:17:00 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Thu Sep 12 21:17:00 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/12 21:17:04 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/09/12 21:17:04 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/09/12 21:17:04 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/09/12 21:17:04 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49686-1568294224704-0:1) is starting
+INFO   | jvm 1    | 2019/09/12 21:17:05 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/12 21:17:05 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/09/12 21:17:05 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/12 21:17:05 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/09/12 21:17:05 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/12 21:17:05 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/09/12 21:17:05 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/12 21:17:05 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/09/12 21:17:05 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/09/12 21:17:05 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/09/12 21:17:05 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@48bf00b8{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/09/12 21:17:06 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/12 21:17:06 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/09/12 21:17:06 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49686-1568294224704-0:1) started
+INFO   | jvm 1    | 2019/09/12 21:17:06 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/09/12 21:17:06 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 37699 mb of usable space. - resetting to maximum available disk space: 37699 mb
+INFO   | jvm 1    | 2019/09/12 21:17:06 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data only has 37692 mb of usable space. - resetting to maximum available disk space: 37692 mb
+INFO   | jvm 1    | 2019/09/12 21:17:07 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/12 21:17:07 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/09/12 21:17:07 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/09/12 21:17:07 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/09/12 21:17:08 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/12 21:17:08 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2019/09/12 21:23:32 | Machine is shutting down.
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49686-1568294224704-0:1) is shutting down
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49686-1568294224704-0:1) uptime 6 minutes
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49686-1568294224704-0:1) is shutdown
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Thu Sep 12 21:17:00 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/12 21:23:33 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/09/12 21:23:34 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/09/12 21:24:03 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/09/12 21:24:04 | Launching a JVM...
+INFO   | jvm 1    | 2019/09/12 21:24:08 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/09/12 21:24:08 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/09/12 21:24:08 | 
+INFO   | jvm 1    | 2019/09/12 21:24:08 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/09/12 21:24:08 |   Heap sizes: current=125952k  free=116631k  max=932352k
+INFO   | jvm 1    | 2019/09/12 21:24:08 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=IWiyHo_ky_utGdPS -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3528 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/09/12 21:24:08 | Extensions classpath:
+INFO   | jvm 1    | 2019/09/12 21:24:08 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/09/12 21:24:08 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/12 21:24:08 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/12 21:24:08 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/09/12 21:24:08 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/09/12 21:24:09 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/09/12 21:24:09 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Thu Sep 12 21:24:09 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/12 21:24:13 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/09/12 21:24:13 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/09/12 21:24:13 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49697-1568294653943-0:1) is starting
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@48bf00b8{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49697-1568294653943-0:1) started
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 37699 mb of usable space. - resetting to maximum available disk space: 37699 mb
+INFO   | jvm 1    | 2019/09/12 21:24:14 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data only has 37692 mb of usable space. - resetting to maximum available disk space: 37692 mb
+INFO   | jvm 1    | 2019/09/12 21:24:16 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/12 21:24:16 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/09/12 21:24:16 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/09/12 21:24:16 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/09/12 21:24:16 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/12 21:24:17 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2019/09/13 10:04:03 | Machine is shutting down.
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49697-1568294653943-0:1) is shutting down
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/09/13 10:04:04 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/09/13 10:04:04 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/09/13 10:04:04 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/09/13 10:04:04 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/09/13 10:04:04 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/09/13 10:04:04 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49697-1568294653943-0:1) uptime 12 hours 39 minutes
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49697-1568294653943-0:1) is shutdown
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Thu Sep 12 21:24:09 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/13 10:04:04 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/09/13 10:04:05 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/09/13 10:04:36 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/09/13 10:04:36 | Launching a JVM...
+INFO   | jvm 1    | 2019/09/13 10:04:39 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/09/13 10:04:39 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/09/13 10:04:39 | 
+INFO   | jvm 1    | 2019/09/13 10:04:39 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/09/13 10:04:39 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 1    | 2019/09/13 10:04:39 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=RvIuFOjHkcj9F0Sr -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3660 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/09/13 10:04:39 | Extensions classpath:
+INFO   | jvm 1    | 2019/09/13 10:04:39 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/09/13 10:04:39 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/13 10:04:39 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/13 10:04:39 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/09/13 10:04:39 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/09/13 10:04:40 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/09/13 10:04:40 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@f0021f4: startup date [Fri Sep 13 10:04:40 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/13 10:04:44 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/09/13 10:04:44 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/09/13 10:04:44 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/09/13 10:04:45 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49684-1568340284865-0:1) is starting
+INFO   | jvm 1    | 2019/09/13 10:04:45 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:04:45 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/09/13 10:04:45 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:04:45 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/09/13 10:04:45 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:04:45 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/09/13 10:04:45 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:04:45 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/09/13 10:04:45 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/09/13 10:04:46 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/09/13 10:04:46 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@bd8aa95{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/09/13 10:04:46 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:04:46 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/09/13 10:04:46 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49684-1568340284865-0:1) started
+INFO   | jvm 1    | 2019/09/13 10:04:46 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/09/13 10:04:46 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 37090 mb of usable space. - resetting to maximum available disk space: 37090 mb
+INFO   | jvm 1    | 2019/09/13 10:04:46 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data only has 37083 mb of usable space. - resetting to maximum available disk space: 37083 mb
+INFO   | jvm 1    | 2019/09/13 10:04:47 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/13 10:04:48 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/09/13 10:04:48 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/09/13 10:04:48 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/09/13 10:04:48 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/13 10:04:49 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2019/09/13 10:05:53 | Machine is shutting down.
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49684-1568340284865-0:1) is shutting down
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49684-1568340284865-0:1) uptime 1 minute
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49684-1568340284865-0:1) is shutdown
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@f0021f4: startup date [Fri Sep 13 10:04:40 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/13 10:05:54 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/09/13 10:05:54 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/09/13 10:06:24 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/09/13 10:06:25 | Launching a JVM...
+INFO   | jvm 1    | 2019/09/13 10:06:29 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/09/13 10:06:29 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/09/13 10:06:29 | 
+INFO   | jvm 1    | 2019/09/13 10:06:29 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/09/13 10:06:29 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 1    | 2019/09/13 10:06:29 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=3NOKEjg1V_bYUPRK -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3492 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/09/13 10:06:29 | Extensions classpath:
+INFO   | jvm 1    | 2019/09/13 10:06:29 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/09/13 10:06:29 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/13 10:06:29 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/13 10:06:29 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/09/13 10:06:29 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/09/13 10:06:30 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/09/13 10:06:30 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4366bb70: startup date [Fri Sep 13 10:06:30 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/13 10:06:34 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/09/13 10:06:34 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/09/13 10:06:34 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/09/13 10:06:35 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49690-1568340394879-0:1) is starting
+INFO   | jvm 1    | 2019/09/13 10:06:35 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:06:35 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/09/13 10:06:35 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:06:35 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/09/13 10:06:35 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:06:35 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/09/13 10:06:35 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:06:35 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/09/13 10:06:35 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/09/13 10:06:35 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/09/13 10:06:35 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@3e4ce83a{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/09/13 10:06:36 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:06:36 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/09/13 10:06:36 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49690-1568340394879-0:1) started
+INFO   | jvm 1    | 2019/09/13 10:06:36 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/09/13 10:06:36 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 37090 mb of usable space. - resetting to maximum available disk space: 37090 mb
+INFO   | jvm 1    | 2019/09/13 10:06:36 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data only has 37083 mb of usable space. - resetting to maximum available disk space: 37083 mb
+INFO   | jvm 1    | 2019/09/13 10:06:37 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/13 10:06:37 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/09/13 10:06:37 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/09/13 10:06:37 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/09/13 10:06:38 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/13 10:06:39 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2019/09/13 10:08:51 | Machine is shutting down.
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49690-1568340394879-0:1) is shutting down
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49690-1568340394879-0:1) uptime 2 minutes
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49690-1568340394879-0:1) is shutdown
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@4366bb70: startup date [Fri Sep 13 10:06:30 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/13 10:08:53 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/09/13 10:08:54 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/09/13 10:09:24 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/09/13 10:09:24 | Launching a JVM...
+INFO   | jvm 1    | 2019/09/13 10:09:28 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/09/13 10:09:28 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/09/13 10:09:28 | 
+INFO   | jvm 1    | 2019/09/13 10:09:28 | Java Runtime: Oracle Corporation 1.8.0_66 E:\eclipseTotal\java配置\jdk\jre
+INFO   | jvm 1    | 2019/09/13 10:09:28 |   Heap sizes: current=125952k  free=116632k  max=932352k
+INFO   | jvm 1    | 2019/09/13 10:09:28 |     JVM args: -Dactivemq.home=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Dactivemq.base=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ks -Djavax.net.ssl.trustStore=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf -Dactivemq.data=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../data -Djava.security.auth.login.config=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../conf/login.config -Xmx1024m -Djava.library.path=E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\../bin/win64 -Dwrapper.key=yrOf_ShlGpBYubfc -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3588 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/09/13 10:09:28 | Extensions classpath:
+INFO   | jvm 1    | 2019/09/13 10:09:28 |   [E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\camel,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\optional,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\web,E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2019/09/13 10:09:28 | ACTIVEMQ_HOME: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/13 10:09:28 | ACTIVEMQ_BASE: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..
+INFO   | jvm 1    | 2019/09/13 10:09:28 | ACTIVEMQ_CONF: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\conf
+INFO   | jvm 1    | 2019/09/13 10:09:28 | ACTIVEMQ_DATA: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data
+INFO   | jvm 1    | 2019/09/13 10:09:29 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/09/13 10:09:29 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Fri Sep 13 10:09:29 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/13 10:09:33 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/09/13 10:09:33 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/09/13 10:09:33 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/09/13 10:09:33 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49685-1568340573540-0:1) is starting
+INFO   | jvm 1    | 2019/09/13 10:09:34 |  INFO | Listening for connections at: tcp://983QOLQJ5HYCKLY:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:09:34 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/09/13 10:09:34 |  INFO | Listening for connections at: amqp://983QOLQJ5HYCKLY:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:09:34 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/09/13 10:09:34 |  INFO | Listening for connections at: stomp://983QOLQJ5HYCKLY:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:09:34 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/09/13 10:09:34 |  INFO | Listening for connections at: mqtt://983QOLQJ5HYCKLY:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:09:34 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/09/13 10:09:34 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/09/13 10:09:34 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/09/13 10:09:34 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@48bf00b8{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/09/13 10:09:35 |  INFO | Listening for connections at ws://983QOLQJ5HYCKLY:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/09/13 10:09:35 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/09/13 10:09:35 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49685-1568340573540-0:1) started
+INFO   | jvm 1    | 2019/09/13 10:09:35 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/09/13 10:09:35 |  WARN | Store limit is 102400 mb (current store usage is 7 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb only has 37090 mb of usable space. - resetting to maximum available disk space: 37090 mb
+INFO   | jvm 1    | 2019/09/13 10:09:35 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data only has 37083 mb of usable space. - resetting to maximum available disk space: 37083 mb
+INFO   | jvm 1    | 2019/09/13 10:09:36 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/13 10:09:36 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/09/13 10:09:36 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/09/13 10:09:36 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/09/13 10:09:36 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/09/13 10:09:37 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2019/09/14 21:58:00 | Machine is shutting down.
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49685-1568340573540-0:1) is shutting down
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/09/14 21:58:02 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/09/14 21:58:02 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Could not accept connection during shutdown  : {}
+INFO   | jvm 1    | 2019/09/14 21:58:02 | java.lang.InterruptedException
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:]
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:]
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:]
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:494)[activemq-client-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2019/09/14 21:58:02 | 	at java.lang.Thread.run(Thread.java:745)[:]
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | PListStore:[E:\0编程\技术知识点\activeMQ使用\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49685-1568340573540-0:1) uptime 1 day 11 hours
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:983QOLQJ5HYCKLY-49685-1568340573540-0:1) is shutdown
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@91bcc8: startup date [Fri Sep 13 10:09:29 CST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/09/14 21:58:02 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/09/14 21:58:03 | <-- Wrapper Stopped

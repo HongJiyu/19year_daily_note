@@ -1,0 +1,10 @@
+
+
+tomcat 是nio，那么是eventloop决定线程数吗，那其他线程数的作用呢。
+Server.tomcat.accept.count  线程满了，等待队列的大小
+Server.tomcat.min-spare-threads 空闲时保留线程数
+Server.tomcat.max-connections  最大连接
+Server.tomcat.max-threads 最大线程数（4核心8G使用800）
+
+tomcat调用一个方法：这个方法内部用多线程调用。方法内部执行不需要返回值，那么tomcat线程直接返回。如果需要返回值，那么必然是需要同步等待结果。
+方法内只是处理数据，那么tomcat线程变成接收请求，以及返回。而真正处理是方法内部多线程。即tomcat线程决定了吞吐量。即使返回了，最终解决可能还没完成。

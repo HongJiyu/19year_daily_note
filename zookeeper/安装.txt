@@ -1,0 +1,7 @@
+集群
+https://blog.csdn.net/zhangyunsheng11/article/details/88647182
+配置的路径用127.0.0.1就行
+开启安全组就能用客户端连接上
+
+安装jdk
+https://blog.csdn.net/dhr201499/article/details/81626466

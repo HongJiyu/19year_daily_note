@@ -1,0 +1,5 @@
+spring.data.elasticsearch.cluster-name=elasticsearch
+spring.data.elasticsearch.cluster-nodes=localhost:9300,localhost:9301
+spring.data.elasticsearch.repositories.enabled=true
+
+一直链接不上

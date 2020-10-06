@@ -1,0 +1,13 @@
+https://www.cnblogs.com/ldsweely/p/12160078.html
+
+@Transactional失效
+1.修饰的方法必须是public，不过protected、private 修饰的方法上使用 @Transactional 注解，虽然事务无效，但不会有任何报错，这是我们很容犯错的一点。
+2.本类的方法调用本类的其他方法，因为注解是交给ioc管理，只有从ioc获取的对象，才具有事务的效果。
+解决：本类方法通过ioc容器获取本类对象，调用对象的其他发方法。
+3.传播行为设置错误、rollbackFor设置错误
+4.异常被try catch
+5.数据库引擎不支持
+
+
+业余草：
+https://mp.weixin.qq.com/s?__biz=MzIyODE5NjUwNQ==&mid=2653320293&idx=1&sn=bc55920f653114323b1ca35140c0840c&chksm=f3877d93c4f0f485c79a7928e968c147acbde257792dd8725f53ad27588d18789da7528a8e08&scene=126&sessionid=1591252909&key=f92a8a0e65315f895ccfea87250c69984466a9c83ce34de3786a73ae1e7ebf7bbeec4c1319212e631bd76a2923ca2895d4c73c2aabce865f1312fb02fb4440e6370b2cb24dd4c31187c63e5519e13b31&ascene=1&uin=MjU0NDc3MDExNg%3D%3D&devicetype=Windows+10+x64&version=62090070&lang=zh_CN&exportkey=AxC4L19fZ174%2BS6PpMO4RJY%3D&pass_ticket=0D5FLYImH5zUCNpNtApdWfopxWTBX69l9O5Yeg4EoV4o2ks6Up68gTEKksThqOZC

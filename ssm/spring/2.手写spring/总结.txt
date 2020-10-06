@@ -1,0 +1,8 @@
+spring ioc：通过读取配置文件中需要扫描的路径，在对应的路径用递归在遍历所有的@controller和@service注解，将对应的beanName和beanClassName保存到beanDefinition中，再将单例非延迟加载的bean，实例化，保存到一个map中（ioc容器）。
+
+spring di：通过遍历ioc容器，对每个Class中的字段进行遍历，判断是否是@AutoWired，如果ioc容器中有的话就进行注入，没有就不做操作。
+
+spring mvc：通过遍历ioc容器中的@Controller修饰的类，对该类和方法进行解析，是否有@requestMapping，有的话，就保存在一个map中，是一个url和HandlerMapping的一个map。同时一个handlerMapping还对应一个handlerAdapter，这个handerAdapter的handle实现形参和实参之间的对应关系，并调用方法，返回一个ModelAndView。ViewResolver 通过对模板的解析，生成一个view，对模板进行渲染赋值成一个浏览器能够就收的页面，html（字符串）。
+
+spring aop：读取aop配置的信息，与配置信息进行匹配，判断该实例是否需要被增强，如果需要就会保存该实例中需要被增强的方法，以及对应的具体增强的功能（称为通知），然后利用动态代理，通过实例以及需要增强的方法，具体的增强功能，生成一个代理对象，并进行返回。
+一个方法可以有多个通知，而每个通知又要保存这个通知时before还是after或者其他，还要保存这个通知的功能，调用这个通知的对象。用Map<Method,Map<String,Advice>> 保存

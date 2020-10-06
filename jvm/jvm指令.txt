@@ -1,0 +1,13 @@
+-XX:MaxTenuringThreshold  默认15
+-XX:+UseSerialGC
+-XX:+UseParNewGC 
+-XX:ParallelGCThreads parallel scanverge使用线程数
+-XX:+UseParallelGC 使用 Parallel 收集器+ 老年代串行
+-XX:+UseParallelOldGC 使用 Parallel 收集器+ 老年代并行
+-XX:CMSInitialOccupancyFraction 老年代使用率到达后gc
+-XX:+ UseCMSCompactAtFullCollection    Full GC后，进行一次整理，整理过程是独占的，会引起停顿时间变长
+-XX:+CMSFullGCsBeforeCompaction  设置进行几次Full GC后，进行一次碎片整理
+-XX:ParallelCMSThreads 设定CMS的线程数量（一般情况约等于可用CPU数量）
+-XX:G1HeapRegionSize=n 一个分区的大小
+-XX:GCTimeRatio即为GC与应用的耗费时间比，G1默认为9
+年轻代内存会在初始空间-XX:G1NewSizePercent(默认整堆5%)与最大空间-XX:G1MaxNewSizePercent(默认60%)之间动态变化

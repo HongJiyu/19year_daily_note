@@ -1,0 +1,23 @@
+intern
+1.7之前：返回的都是常量池中的，没有则在常量池新建。
+1.7之后：常量池中有，则返回。常量池没有，且堆有，则返回堆中的地址。常量池没有，堆没有（不可能），因为是一个String对象
+来intern的。  s.intern();
+
+String one=new String("aa");   
+会创建1-2个对象，取决于常量池中是否存在aa。
+没有，则常量池中也会创建。则创建两个对象。
+有，则只创建一个在堆中的对象。
+
+String one="a"+"b"+"c";  会创建5个对象  “a”"b" "c" "ab"  "abc"
+StringBuilder sb=new StringBuilder("a") 会创建两个对象 堆中一个“a”，常量池中一个。“a”
+sb.append("b")。 会创建一个对象，在常量池“b”， 上面那个在堆中的对象变为“ab”
+sb.append("c")。 会创建一个对象，在常量池“c”，上面那个在堆中的对象变为“abc”
+
+记住：append的字符串会在常量池中生成，new StringBuilder（“”） ，其实也是用了append ，所以才会生成两个对象
+
+
+String和StringBuilder对比。
+“abc”  String：5个。StringBuilder：4个。
+但是随着数据越来越多，Stirng 创建的对象会越来越多，而StringBuilder则递增而已。
+
+注意：类的名，方法名等字面量会在类加载的时候就放入到常量池中。

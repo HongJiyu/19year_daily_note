@@ -1,0 +1,2 @@
+mysqldump -uroot -pwoshige2b --databases miaosha > E:/miaosha.sql
+mysql -uroot -pwoshige2b < /tmp/miaosha.sql

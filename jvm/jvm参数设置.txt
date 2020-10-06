@@ -1,0 +1,26 @@
+-Xss100k  调整栈的深度
+-Xmx100M  调整堆的最大空间
+-Xms100M  调整堆的初始空间
+-Xmn2g   设置年轻代大小2g
+-XX:MetaspaceSize=40M  元空间初始 
+-XX:MaxMetaspaceSize=40M	元空间最大
+
+-XX:PretenureSizeThreshold=5242880  5MB 大于这个值直接分配到老年代，或者超过eden区的大小，不会触发minor gc
+只有在适合-XX:+UseSerialGC、-XX:+UseParNewGC、-XX:+UseConcMarkSweepGC，即适合Serial和ParNew收集器。
+
+-XX:SurvivorRatio=8   在年轻代中eden区占百分之八十
+-XX:NewRatio=4  在堆内存中年轻代和老年代占比是1：4
+
+java -XX:+PrintCommandLineFlags -version   查看默认使用的回收器
+
+-XX:+PrintFlagsFinal  虚拟机启动时打印出所有的参数
+
+-XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=heap.hprof -Xmx50M -Xmx50M   dump文件
+-XX:+PringGCDetails -XX:+PringGCTimeStamps -XX:+PringGCDateStamps -Xloggc:gc.log  分析log文件
+
+-XX:ParallelGCThreads=n:设置并行收集器收集时使用的CPU数.并行收集//线程数.
+-XX:MaxGCPauseMillis=n:设置并行收集最大暂停时间
+
+-XX:ParallelCMSThreads 设定CMS的线程数量（一般情况约等于可用CPU数量）
+
+-XX:CMSInitialOccupancyFraction=92  cms，1.7默认老年代堆内存到92%就gc

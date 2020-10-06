@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hjy</groupId>
+  <artifactId>spring_handwrite</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+<build>
+<plugins>
+ <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>tomcat-maven-plugin</artifactId>
+                <version>1.1</version>
+                <configuration>
+                    <path>/</path>
+                    <port>8081</port>
+                    <uriEncoding>UTF-8</uriEncoding>
+<!--                     <url>http://localhost:8080/manager/html</url> -->
+
+                    <server>tomcat7</server>
+                </configuration>
+            </plugin>
+<!--             使得通过反射获取方法参数名时，不是arg而是真正的参数名 -->
+            <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.3</version>
+    <configuration>
+        <source>1.8</source>
+        <target>1.8</target>
+        <compilerArgs>
+            <arg>-parameters</arg>
+        </compilerArgs>
+    </configuration>
+</plugin>
+
+</plugins>
+</build>
+</project>

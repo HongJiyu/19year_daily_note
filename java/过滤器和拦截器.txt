@@ -1,0 +1,6 @@
+https://www.toutiao.com/i6727212676704895499/
+
+过滤器：递归调用，责任链模式
+拦截器：for循环执行pre和post，执行链。
+
+先过滤器（serlvet）再拦截器（spring的拦截器）。

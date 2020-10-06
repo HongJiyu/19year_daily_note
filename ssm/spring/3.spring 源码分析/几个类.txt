@@ -1,0 +1,11 @@
+AbstractApplicationContext#refresh()
+AbstractRefreshableApplicationContext#refreshBeanFactory()
+DefaultBeanDefinitionDocumentReader#processBeanDefinition（） 读取配置文件生成dom树并分类标签
+BeanDefinitionParserDelegate   根据标签解析为beanDefinition
+DefaultListableBeanFactory  将beanDefinition注册到这里
+DefaultSingletonBeanRegistry  将bean都保存在这里，是DefaultListableBeanFactory  的父类
+AbstractAutowireCapableBeanFactory  生命周期
+
+AbstractAutoProxyCreator  aop的beanPostProcess
+
+DispatcherServlet  doDispatcher方法

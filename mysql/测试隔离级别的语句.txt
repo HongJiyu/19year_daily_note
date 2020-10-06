@@ -1,0 +1,21 @@
+set global transaction_isolation ='READ-COMMITTED'; -- REPEATABLE-READ   READ-UNCOMMITTED READ-COMMITTED  SERIALIZABLE    设置隔离级别
+select @@tx_isolation;
+Show global variables like '%tx_isolation%';
+Show session variables like '%tx_isolation%';
+
+begin ;
+select * from tb_next_lock_test where age=10 for update;
+ROLLBACK;
+
+---------------------------------------------------------------------------
+set global transaction_isolation ='READ-COMMITTED';
+select @@tx_isolation;
+Show global variables like '%tx_isolation%';
+Show session variables like '%tx_isolation%';
+
+begin;
+insert into tb_next_lock_test(id,name,age,num) values(10,10,10,10);
+ROLLBACK;
+
+---------------------------------------------------------------------------
+show status like 'innodb_row_lock%';

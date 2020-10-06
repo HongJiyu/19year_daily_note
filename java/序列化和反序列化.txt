@@ -1,0 +1,4 @@
+https://mp.weixin.qq.com/s?__biz=MzIyODE5NjUwNQ==&mid=2653320268&idx=1&sn=0b724c4c34a2079d30b5c762efc15fe0&chksm=f3877dbac4f0f4acfaee942d1293baf7d00fbb3c8b0cdf787382bf400532f03666d609db54c9&scene=126&sessionid=1591252909&key=bdc6f84ad74d19810d3c56dbbf9abc347c78a620441f69e37f74f4c83c4785b19adcf5ec22ad3e303d7ef5aa05c73a149a4bba9f2c2e84a40fd80eab1ded47301102156b27c8790f531ee5511279f1b4&ascene=1&uin=MjU0NDc3MDExNg%3D%3D&devicetype=Windows+10+x64&version=62090070&lang=zh_CN&exportkey=AzBkPY4exeGH4utX%2BY%2FnQ5U%3D&pass_ticket=0D5FLYImH5zUCNpNtApdWfopxWTBX69l9O5Yeg4EoV4o2ks6Up68gTEKksThqOZC
+
+
+自定义序列化：实现Serializable接口，重写writeObject和readObject方法。
